@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    double x;
+    double y;
+
+    cout << "Podaj wartość liczby x: " << endl;
+    cin >> x; 
+    cout << "\n";
+    cout << "Podaj wartość liczby y: " << endl;
+    cin >> y; 
+    cout << "\n";
+
+    float suma = (x+y);
+    float roznica = (x-y);
+    float iloczyn = (x*y);
+    float iloraz = (x/y);
+  
+    float suma1 = ceil( suma * 100.0) / 100.0;
+    float roznica1 = ceil( roznica * 100.0) / 100.0;
+    float iloraz1 = ceil( iloraz * 100.0) / 100.0;
+    float iloczyn1 = ceil( iloczyn * 100.0) / 100.0;
+  
+
+  
+    
+
+    
+    cout << "Iloczyn podanych liczb to: ";
+    cout << iloczyn1 << "\n";
+    cout << "Różnica podanych liczb to: ";
+    cout << roznica1 << "\n";
+    cout << "Suma podanych liczb to: ";
+    cout << suma1 << "\n";
+    cout << "Iloraz podanych liczb to: ";
+    cout << iloraz1 << "\n";
+
+    return 0;
+}
